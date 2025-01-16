@@ -3,9 +3,11 @@ productinformation Prestashop module that display additional image for feature v
 
 ## TODO
 - [X] Addition of new features
-- [ ] Editing of existing features
-    - No reaction
-- [ ] Deletion of existing features
-    - Throws Error
-- [ ] Bulk actions
-    - [ ] Bulk Deletion
+    - Images are saved into uploads/productinformation
+    - Images are saved with custom name "featureName_featureValue"
+- [X] Editing of existing features
+- [X] Deletion of existing features
+    - Includes deletion of image files
+- [X] Bulk actions
+    - [X] Bulk Deletion
+    - [X] Bulk toggling

@@ -62,6 +62,7 @@ class AdminProductinformationController extends ModuleAdminController{
         );
 
         $features_query = '
+    $this->identifier = 'id_product_information';
           SELECT ' . _DB_PREFIX_ . 'feature.id_feature, name FROM ' . _DB_PREFIX_ .
           'feature INNER JOIN ' . _DB_PREFIX_ . 'feature_lang ON (' . _DB_PREFIX_ . 'feature.id_feature = '
           . _DB_PREFIX_ . 'feature_lang.id_feature AND ' . _DB_PREFIX_ . 'feature_lang.id_lang = '.$id_lang.')';
