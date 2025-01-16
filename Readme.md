@@ -1,4 +1,5 @@
 # Product information
+productinformation Prestashop module that display additional image for feature value, after installation create folder for images: upload\productinformation
 
 ## TODO
 - [X] Addition of new features
